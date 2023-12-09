@@ -61,7 +61,7 @@ def main():
 		st.image(image, caption='Climate Change')
 
 		st.markdown("### Analysing Today for a Sustainable Tomorrow!")
-		st.write("The ECASA App is based on Machine Learning models that are able to classify whether user sentiments on climate change are pro, anti, news-related, or neutral-based on their tweets. Our planet is bleeding and people care. Because businesses care about what is important to its people, ECASA is a step in the right direction of saving the planet and putting people first.")
+		st.write("The ECASA App is based on Machine Learning models that can classify whether user sentiments on climate change are pro, anti, news-related, or neutral-based on their tweets. Our planet is bleeding and people care. Because businesses care about what is important to its people, ECASA is a step in the right direction of saving the planet and putting people first.")
 
 	# Building out the "Explore" page
 	if selection == "Explore":
@@ -78,7 +78,7 @@ def main():
 
 		if st.checkbox('Show visualizations'):
 			if option == 'Common words':
-				image = Image.open('resources/Visuals/word_cloud_most_common_words.png')
+				image = Image.open("resources/Visuals/word_cloud_most_common_words.png")
 				st.image(image)
 			else:
 				with st.expander('Pro Sentiments'):
