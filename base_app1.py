@@ -119,7 +119,7 @@ def main():
 					image = Image.open('resources/Visuals/top_enities_pro.png')
 					st.image(image)
 				with st.expander('News'):
-					image = Image.open('resources/Visuals/top_entities_news.PNG')
+					image = Image.open('resources/Visuals/top_entities_news.png')
 					st.image(image)
 				with st.expander('Neutral Sentiments'):
 					image = Image.open('resources/Visuals/top_entities_neutral.png')
