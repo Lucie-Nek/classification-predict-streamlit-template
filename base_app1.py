@@ -57,7 +57,7 @@ def main():
 
 	# Building out the "Home" page
 	if selection == "Home":
-		image = Image.open('resources/climate_change.PNG')
+		image = Image.open('resources/climate_change.png')
 		st.image(image, caption='Climate Change')
 
 		st.markdown("### Analysing Today for a Sustainable Tomorrow!")
@@ -78,37 +78,37 @@ def main():
 
 		if st.checkbox('Show visualizations'):
 			if option == 'Common words':
-				image = Image.open('resources/Visuals/word_cloud_most_common_words.PNG')
+				image = Image.open('resources/Visuals/word_cloud_most_common_words.png')
 				st.image(image)
 			else:
 				with st.expander('Pro Sentiments'):
-					image = Image.open('resources/Visuals/word_cloud_most_common_words_pro.PNG')
+					image = Image.open('resources/Visuals/word_cloud_most_common_words_pro.png')
 					st.image(image)
 				with st.expander('News'):
-					image = Image.open('resources/Visuals/word_cloud_most_common_words_news.PNG')
+					image = Image.open('resources/Visuals/word_cloud_most_common_words_news.png')
 					st.image(image)
 				with st.expander('Neutral Sentiments'):
-					image = Image.open('resources/Visuals/word_cloud_most_common_words_neutral.PNG')
+					image = Image.open('resources/Visuals/word_cloud_most_common_words_neutral.png')
 					st.image(image)
 				with st.expander('Anti Sentiments'):
-					image = Image.open('resources/Visuals/word_cloud_most_common_words_anti.PNG')
+					image = Image.open('resources/Visuals/word_cloud_most_common_words_anti.png')
 					st.image(image)
 					
 			if option == 'Popular hashtags':
-				image = Image.open('resources/Visuals/most_common_hashtags.PNG')
+				image = Image.open('resources/Visuals/most_common_hashtags.png')
 				st.image(image)
 			else:
 				with st.expander('Pro Sentiments'):
-					image = Image.open('resources/Visuals/most_common_hashtags_pro.PNG')
+					image = Image.open('resources/Visuals/most_common_hashtags_pro.png')
 					st.image(image)
 				with st.expander('News'):
-					image = Image.open('resources/Visuals/most_common_hashtags_news.PNG')
+					image = Image.open('resources/Visuals/most_common_hashtags_news.png')
 					st.image(image)
 				with st.expander('Neutral Sentiments'):
-					image = Image.open('resources/Visuals/most_common_hashtags_neutral.PNG')
+					image = Image.open('resources/Visuals/most_common_hashtags_neutral.png')
 					st.image(image)
 				with st.expander('Anti Sentiments'):
-					image = Image.open('resources/Visuals/most_common_hashtags_anti.PNG')
+					image = Image.open('resources/Visuals/most_common_hashtags_anti.png')
 					st.image(image)
 					
 			if option == 'Top entities':
@@ -116,16 +116,16 @@ def main():
 				st.image(image)
 			else:
 				with st.expander('Pro Sentiments'):
-					image = Image.open('resources/Visuals/top_enities_pro.PNG')
+					image = Image.open('resources/Visuals/top_enities_pro.png')
 					st.image(image)
 				with st.expander('News'):
 					image = Image.open('resources/Visuals/top_entities_news.PNG')
 					st.image(image)
 				with st.expander('Neutral Sentiments'):
-					image = Image.open('resources/Visuals/top_entities_neutral.PNG')
+					image = Image.open('resources/Visuals/top_entities_neutral.png')
 					st.image(image)
 				with st.expander('Anti Sentiments'):
-					image = Image.open('resources/Visuals/top_entities_anti.PNG')
+					image = Image.open('resources/Visuals/top_entities_anti.png')
 					st.image(image)
 
 	# Building out the "Feature Engineering" page
@@ -137,11 +137,11 @@ def main():
 		# Display the unprocessed data
 		st.markdown("##### Balancing of data")
 		if st.checkbox('Show unbalanced data'): # data is hidden if box is unchecked
-			image = Image.open('resources/Visuals/sentiment_distribution.PNG')
+			image = Image.open('resources/Visuals/sentiment_distribution.png')
 			st.image(image)
 
 		if st.checkbox('Show balanced data'): # data is hidden if box is unchecked
-			image = Image.open('resources/Visuals/balanced_distribution.PNG')
+			image = Image.open('resources/Visuals/balanced_distribution.png')
 			st.image(image)
 
 	# Building out the predication page
@@ -223,7 +223,7 @@ def main():
 
 	# Build the Contact us page
 	if selection == "Contact Us":
-		image = Image.open('resources/contactus.PNG')
+		image = Image.open('resources/contactus.png')
 		st.image(image)
 		
 		col1, col2 = st.columns(2)
